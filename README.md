@@ -74,20 +74,6 @@ Our application follows a carefully designed step-by-step process to transform l
 
 This workflow is designed to make the process of creating short-form content as automated and user-friendly as possible, while still giving users control over the final output.
 
-## Design Process
-
-The application's design focuses on simplicity and user experience. Here's our design thought process:
-
-![Design Process](Images/design.png)
-
-Key design decisions:
-- **Minimalist Interface**: Clean, distraction-free UI that puts focus on the video content
-- **Intuitive Workflow**: Step-by-step process from upload to sharing
-- **Smart Defaults**: AI-powered suggestions to reduce manual work
-- **Responsive Design**: Works seamlessly across devices
-- **Visual Feedback**: Clear status indicators and progress updates
-- **Accessibility**: High contrast and readable text throughout
-
 ## Screenshots
 
 ### Upload and Processing
