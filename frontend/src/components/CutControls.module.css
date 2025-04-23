@@ -1,0 +1,80 @@
+.cutControls {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f8f8f8;
+  border-radius: 8px;
+}
+
+.timeInputs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.timeInput {
+  flex: 1;
+}
+
+.timeInput label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.timeInput input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.cutButton {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cutButton:hover {
+  background: #45a049;
+}
+
+.cutButton:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+.subtitleButton {
+  background: #2196F3;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 1rem;
+}
+
+.subtitleButton:hover {
+  background: #1976D2;
+}
+
+.subtitleButton:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+.subtitleStatus {
+  margin-top: 0.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.status {
+  margin-top: 0.5rem;
+  color: #666;
+  font-size: 0.9rem;
+} 

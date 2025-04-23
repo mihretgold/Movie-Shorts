@@ -1,0 +1,14 @@
+.cutsContainer {
+  margin-top: 2rem;
+}
+
+.cutsTitle {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.cutsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+} 

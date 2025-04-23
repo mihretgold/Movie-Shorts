@@ -1,0 +1,78 @@
+.subtitlesDataContainer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subtitlesDataTitle {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.subtitlesDataControls {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.getSubtitlesButton {
+  background: #2196F3;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.getSubtitlesButton:hover {
+  background: #1976D2;
+}
+
+.getSubtitlesButton:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+.analyzeSubtitlesButton {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.analyzeSubtitlesButton:hover {
+  background: #45a049;
+}
+
+.analyzeSubtitlesButton:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+.subtitlesDataContent {
+  max-height: 400px;
+  overflow-y: auto;
+  background: #f8f8f8;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.subtitlesDataDisplay {
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.error {
+  color: #f44336;
+  font-size: 0.9rem;
+} 
