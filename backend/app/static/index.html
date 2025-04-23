@@ -1021,7 +1021,7 @@
                 aiAnalysisContainer.style.display = 'block';
                 aiSectionsContainer.style.display = 'none';
                 
-                const response = await fetch('/analyze-subtitles', {
+                const response = await fetch('/api/analysis/analyze-subtitles', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
